@@ -1,4 +1,4 @@
-import app from "./app";
+//import app from "./app";
 
 // Global
 const HOME = "/";
@@ -40,4 +40,4 @@ const routes = {
 
 };
 
-export default app;
+//export default app;
