@@ -1,0 +1,10 @@
+extends base.pug
+include mixins/video
+
+block content
+    h2 Welcom here u will see the trending video
+    each fafa in videos
+        +video(fafa)
+                
+    else 
+        li Sorry nothing found zz
