@@ -1,10 +1,10 @@
-extends base.pug
+extends base
 include mixins/video
 
 block content
     h2 Welcom here u will see the trending video
-    each fafa in videos
-        +video(fafa)
+    each video in videos
+        +video(video)
                 
     else 
         li Sorry nothing found zz
