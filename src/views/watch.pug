@@ -2,4 +2,8 @@ extends base.pug
 
 
 block content
-    h1 Wahtch Video
+    div
+        p=video.description
+        small=video.createdAt
+    a(href=`${video.id}/edit`) Edit Video &rarr;
+

@@ -7,7 +7,7 @@
     "url": "git+https://github.com/jaenam1212/wetube.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js"
+    "dev": "nodemon --exec babel-node src/init.js"
   },
   "author": "Jaenam Lee",
   "license": "ISC",
@@ -17,6 +17,7 @@
   "homepage": "https://github.com/jaenam1212/wetube#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mongoose": "^6.4.0",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.16",
     "pug": "^3.0.2"
