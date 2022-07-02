@@ -17,7 +17,7 @@
   "homepage": "https://github.com/jaenam1212/wetube#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^6.4.0",
+    "mongoose": "^5.13.14",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.16",
     "pug": "^3.0.2"
